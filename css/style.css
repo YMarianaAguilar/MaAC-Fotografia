@@ -1,0 +1,229 @@
+.navbar {
+  padding: 1rem;
+  background-color: #3D3737;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  height: 100px;
+}
+.navbar .navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+.footer {
+  min-height: 500px;
+}
+.footer .footer-logo {
+  width: "50px";
+  height: "50px";
+  margin-top: 10px;
+}
+.footer .iconos-redes-sociales .a-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.footer .derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+.hero {
+  min-height: 450px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4274509804), rgba(0, 0, 0, 0.4588235294)), url(../assets/img/bienvenidos/fotoHome.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero .hero-principal {
+  padding: 3rem;
+}
+.hero .hero-principal .hero-principal-h1 {
+  font-size: 1.5rem;
+  color: #F2EFDB;
+}
+
+.testimonios {
+  padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+  max-width: 800px;
+}
+.testimonios .carousel .carousel-inner .carousel-item {
+  height: 500px;
+}
+.testimonios .carousel .carousel-inner .carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonios .carousel .carousel-inner .carousel-item .container .testimonio-imagen {
+  width: 20%;
+  height: 70%;
+  margin: 10px 10px 20px 10px;
+}
+.testimonios .carousel .carousel-inner .carousel-item .container .testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+.testimonios .carousel .carousel-inner .carousel-item .container .testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 60%;
+    width: 10%;
+  }
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+.sobre-mi {
+  height: 750px;
+  padding: 10px;
+}
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+.sobre-mi .contenedor .sobre-mi-imagen {
+  border-radius: 5%;
+  margin: 20px;
+}
+.sobre-mi .contenedor .seccion-text {
+  padding: 20px;
+}
+
+.servicios {
+  padding: 40px;
+}
+.servicios .row .columna {
+  height: 600px;
+  border: 15px;
+}
+.servicios .row .columna .servicios-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.portfolio {
+  padding: 40px;
+}
+.portfolio .portfolio-fotos .img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+}
+
+.img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+.contacto {
+  padding: 40px;
+}
+.contacto .row .row-div {
+  height: 700px;
+}
+.contacto .row .row-div .contacto-img {
+  width: 80%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #F2EFDB;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Spectral", serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Spectral", serif;
+}
+
+p {
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Spectral", serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion-clara {
+  color: #3D3737;
+  background-color: #FDA47E;
+}
+
+.seccion-oscura {
+  color: #FDA47E;
+  background-color: #3D3737;
+}
+
+.seccion-footer {
+  color: #F2EFDB;
+  background-color: #aaa;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Spectral", serif;
+}
+
+.seccion-text {
+  font-size: 1rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Spectral", serif;
+  margin: 20px;
+}
+
+.texto-claro {
+  color: #F2EFDB;
+}
+
+.texto-oscuro {
+  color: #3D3737;
+}
+
+/*# sourceMappingURL=style.css.map */

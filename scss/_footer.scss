@@ -1,0 +1,34 @@
+$font-color: #3D3737;
+$primary-color: #FDA47E;
+$secondary-color: #F2EFDB;
+$terciary-color:#aaa;
+
+.footer{
+    min-height: 500px;
+        .footer-logo{
+                width:"50px";
+                height:"50px";
+                margin-top: 10px; 
+            }
+        .iconos-redes-sociales{
+                
+                .a-icon{
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2px;
+                margin:30px;
+                border: 2px solid white;
+                border-radius: 50%;
+                transition: all 0.2s ease-in;
+            }
+        }
+        .derechos-de-autor{
+            font-size: 15px;
+            color: #aeaeae;
+            padding: 20px;
+
+        }
+}

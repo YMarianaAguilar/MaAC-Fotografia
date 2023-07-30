@@ -1,52 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Mariana Aguilar">
-    <metan name="description" content="Página web de fotografía MaAC">
-    <meta name="keywords" content="MaAC, Fotografía, Photography, Fotos, Photos">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/icon/1686226916.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>MaAC Fotografía</title>
+ <!-- Metadatos   -->
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Actualmente ofrezco el servicio de minibooks de fotografía que consta de cinco fotos a elección ya sea para perfil profesional o para redes sociales.">
+ <meta name="keywords" content="Fotógrafa, Fotos para LinkedIn, Fotos para redes sociales, Fotografía Buenos Aires, Minibooks">
+ <!-- Favicon -->
+ <link rel="shortcut icon" type="image/x-icon" href="../assets/icon/1689817298.ico">
+ <!-- Botstrap -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ <!-- CSS -->
+ <link rel="stylesheet" href="../css/style.css">
+ <!-- Google Font p -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Spectral:wght@300&display=swap" rel="stylesheet">
+  <!-- Google Font h1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@500&family=Spectral:wght@300&display=swap" rel="stylesheet">
+ <!-- Titulo -->
+ <title>MaAC Fotografía|Servicios</title>
 </head>
 <body>
-    <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar-toggler">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo_principalchico.png" width="50" alt="Logo de la página web">
-            </a>
-            <ul class="navbar-nav d-flex justify-content-center align-items-center">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">BIENVENIDOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/portfolio.html">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/servicios.html">MaAC</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-              </li>
-            </ul>
+    <header class="header">    
+        <!-- Barra de navegacion -->        
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/logo_fotografiamaac.png" alt="Logo de MaAC Fotografía">
+                  </a>
+                  <ul class="navbar-nav d-flex justify-content-center align-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">BIENVENIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/servicio.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/maac.html">MaAC</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+    </header>
+    <main>
+        <!-- Servicios -->
+        <section class="servicios seccion-clara">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Retratos -->
+                    <div class="columna col-12 col-md-4">
+                        <h2 class="servicios-titulo">RETRATOS</h2>
+                        <div id="carouselExample1" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="../assets/img/servicios/RETRATOS/PAOL1.jpg" class="d-block w-100" alt="Foto de Paola">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/RETRATOS/JEL1.jpg" class="d-block w-100" alt="Foto de Joel">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/RETRATOS/TíaTati3.jpg" class="d-block w-100" alt="Foto de Tatiana">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/RETRATOS/MICA4.jpg" class="d-block w-100" alt="Foto de Micaela">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/RETRATOS/foto2.png" class="d-block w-100" alt="Foto de Marycielo">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/RETRATOS/foto2.jpg" class="d-block w-100" alt="Foto de Camila">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/RETRATOS/6MB.6.jpg" class="d-block w-100" alt="Foto de Rous">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- A Eleccion -->
+                    <div class="columna col-12 col-md-4">
+                        <h2 class="servicios-titulo">A ELECCIÓN</h2>
+                        <div id="carouselExample2" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="../assets/img/servicios/A ELECCION/GUILL1.jpg" class="d-block w-100" alt="Foto de Guillermo">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/A ELECCION/GUILL2.jpg" class="d-block w-100" alt="Foto de Guillermo">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/A ELECCION/MRL1.jpg" class="d-block w-100" alt="Foto de Marlen">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/A ELECCION/ROM1.jpg" class="d-block w-100" alt="Foto de Romina">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Productos -->
+                    <div class="columna col-12 col-md-4">
+                        <h2 class="servicios-titulo">PRODUCTOS</h2>
+                        <div id="carouselExample3" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="../assets/img/servicios/PRODUCTOS/budin13.1.JPG" class="d-block w-100" alt="Foto de budín de limón">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/PRODUCTOS/budin10.JPG" class="d-block w-100" alt="Foto de budín de naranja">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/PRODUCTOS/budin 6.JPG" class="d-block w-100" alt="Foto de budín de chocolate">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../assets/img/servicios/PRODUCTOS/budin 5.JPG" class="d-block w-100" alt="Foto de budín de pasas">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <footer class="seccion-footer d-flex flex-column align-items-center justify-content-center">   
+            <img class="footer-logo" src="../assets/icon/icon_fotografiamaac.png">
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                    <a class="a-icon" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                    <a class="a-icon" href="https://github.com/YMarianaAguilar" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a class="a-icon" href="https://ar.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div> 
+              <div class="derechos-de-autor">Creado por Mariana Aguilar (2023) &#169;</div> 
+          </footer>
+    </footer>
 
-          </div>
-        </div>
-      </nav>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
 </html>

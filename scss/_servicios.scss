@@ -1,0 +1,22 @@
+$font-color: #3D3737;
+$primary-color: #FDA47E;
+$secondary-color: #F2EFDB;
+$terciary-color:#aaa;
+
+.servicios {
+    padding: 40px;
+
+    .row{
+        
+        .columna{
+            height: 600px;
+            border:15px;
+
+            .servicios-titulo{
+                font-size: 25px;
+                font-weight: bold;
+                margin: 20px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@use "navbar";
+@use "footer";
+@use "bienvenidos";
+@use "maac";
+@use "servicios";
+@use "portfolio";
+@use "contacto";
+
+$font-color: #3D3737;
+$primary-color: #FDA47E;
+$secondary-color: #F2EFDB;
+$terciary-color:#aaa;
+
+@mixin reset-pm{
+    padding: 0;
+    margin: 0;  
+}
+ 
+*{
+    @include reset-pm;
+}
+
+// .body {
+//     background-color: $terciary-color;
+// }
+
+a{
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Spectral', serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Spectral', serif;
+}
+
+p{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Spectral', serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.seccion-clara{
+    color:$font-color;
+    background-color: $primary-color;
+}
+
+.seccion-oscura {
+    color:$primary-color ;
+    background-color: #3D3737;
+}
+
+.seccion-footer {
+    color:$secondary-color;
+    background-color:$terciary-color ;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Spectral', serif;
+}
+
+.seccion-text {
+    font-size: 1rem;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Spectral', serif;
+    margin: 20px;
+}
+
+.texto-claro{
+    color: #F2EFDB;
+}
+
+.texto-oscuro{
+    color: #3D3737;
+}

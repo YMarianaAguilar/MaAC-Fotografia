@@ -1,0 +1,28 @@
+$font-color: #3D3737;
+$primary-color: #FDA47E;
+$secondary-color: #F2EFDB;
+$terciary-color:#aaa;
+
+.navbar {
+   padding: 1rem; 
+   background-color:$font-color;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: x-small;
+   height: 100px;
+
+   .navbar-collapse{
+      align-items: center;
+      justify-content: space-between;
+      
+   }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+   .navbar-brand {
+       display: none;
+   }
+}
+

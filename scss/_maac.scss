@@ -1,0 +1,24 @@
+$font-color: #3D3737;
+$primary-color: #FDA47E;
+$secondary-color: #F2EFDB;
+$terciary-color:#aaa;
+
+.sobre-mi{
+    height: 750px;
+    padding: 10px;
+
+    .contenedor{
+        max-width: 600px;
+        text-align: center;
+
+        .sobre-mi-imagen{
+            border-radius: 5%;
+            margin: 20px;
+
+        }
+
+        .seccion-text{
+            padding: 20px;
+        }
+    }
+}

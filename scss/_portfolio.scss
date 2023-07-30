@@ -1,0 +1,22 @@
+$font-color: #3D3737;
+$primary-color: #FDA47E;
+$secondary-color: #F2EFDB;
+$terciary-color:#aaa;
+
+.portfolio{
+    padding: 40px;
+
+      .portfolio-fotos{ 
+            .img{
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            display: block;
+            }
+        }
+}
+
+.img:hover{
+    border: 5px solid #f7f7f7;
+}
