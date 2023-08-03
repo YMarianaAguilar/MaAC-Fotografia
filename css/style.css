@@ -99,6 +99,9 @@ footer .derechos-de-autor {
 }
 
 @media screen and (max-width: 800px) {
+  .testimonios-carrusel {
+    height: 900px;
+  }
   .testimonio-imagen {
     height: 60%;
     width: 10%;
@@ -246,10 +249,6 @@ section {
 
 .texto-oscuro {
   color: #3D3737;
-}
-
-.texto-rosa {
-  color: #FDA47E;
 }
 
 /*# sourceMappingURL=style.css.map */

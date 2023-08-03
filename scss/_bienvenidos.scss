@@ -82,7 +82,9 @@ $terciary-color:#aaa;
 
 
 @media  screen and (max-width:800px){
-
+   .testimonios-carrusel{
+    height: 900px;
+}
     .testimonio-imagen{
         height: 60%;
         width: 10%;
