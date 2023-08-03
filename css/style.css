@@ -9,6 +9,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar .navbar-collapse li {
+  padding-right: 5px;
+  padding-left: 5px;
+}
 
 @media screen and (max-width: 767px) {
   .navbar-brand {
@@ -242,6 +246,10 @@ section {
 
 .texto-oscuro {
   color: #3D3737;
+}
+
+.texto-rosa {
+  color: #FDA47E;
 }
 
 /*# sourceMappingURL=style.css.map */

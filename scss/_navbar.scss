@@ -14,8 +14,14 @@ $terciary-color:#aaa;
       align-items: center;
       justify-content: space-between;
       
+      li{
+         padding-right: 5px;
+         padding-left: 5px;
+      }
+
    }
 }
+
 
 
 
@@ -24,5 +30,6 @@ $terciary-color:#aaa;
    .navbar-brand {
        display: none;
    }
+
 }
 

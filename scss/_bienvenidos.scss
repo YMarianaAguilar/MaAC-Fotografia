@@ -70,6 +70,7 @@ $terciary-color:#aaa;
                         
                     }
                     .cliente{
+
                         background-color: $font-color;
                         color: $primary-color;
                     }
@@ -81,6 +82,7 @@ $terciary-color:#aaa;
 
 
 @media  screen and (max-width:800px){
+
     .testimonio-imagen{
         height: 60%;
         width: 10%;
@@ -88,4 +90,5 @@ $terciary-color:#aaa;
     .testimonio-texto{
         font-size: 18px;
     }
+    
 }
