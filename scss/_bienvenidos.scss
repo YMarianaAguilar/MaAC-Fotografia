@@ -37,7 +37,7 @@ $terciary-color:#aaa;
 
 
             .carousel-item{
-            height: 500px;
+            height: 570px;
 
                 .container{
                     width: 100%;
@@ -47,22 +47,32 @@ $terciary-color:#aaa;
                     align-items: center;
                     justify-content: center;
 
-                .testimonio-imagen{
-                    width: 20%;
-                    height: 70%;
-                    margin: 10px 10px 20px 10px;
+                    .testimonio-imagen{
+                        width: 155px;
+                        height: 235px;
+                        margin: 50px 10px 50px 10px;
                     }
                 
-                .testimonio-texto{
-                    max-width: 70%;
-                    font-size: 20px;
-                    text-align: center;
-                }
+                    .testimonio-texto{
+                        max-width: 70%;
+                        font-size: 20px;
+                        text-align: center;
+                    }
 
-                .testimonio-info{
-                    font-weight: bold;
-                    text-align: center;
-                }
+                    .testimonio-info{
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    p{
+                        background-color: $primary-color;
+                        color: $font-color;
+                        padding: 15px;
+                        
+                    }
+                    .cliente{
+                        background-color: $font-color;
+                        color: $primary-color;
+                    }
                 }
             }
         }

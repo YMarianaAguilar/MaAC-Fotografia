@@ -16,5 +16,18 @@ $terciary-color:#aaa;
                 
             }
         }
+        .btn-btn-primary{
+            color: #e8e8e8;
+            background-color: #3D3737;
+            border: 2px solid #3D3737;
+            padding: 10px;
+            border-radius: 5%;
+            margin-top: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: small;
+        }
+        .form-control{
+            background-color: #F2EFDB;
+        }
     }
 }
