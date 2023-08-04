@@ -6,7 +6,8 @@
 @use "portfolio";
 @use "contacto";
 
-$font-color: #3D3737;
+$font-color: #1a1615;
+$font-letra:#3D3737;
 $primary-color: #FDA47E;
 $secondary-color: #F2EFDB;
 $terciary-color:#aaa;
@@ -30,14 +31,14 @@ a{
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 1.7rem;
     font-family: 'Cedarville Cursive', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Spectral', serif;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: 'Cedarville Cursive', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Spectral', serif;
@@ -56,13 +57,13 @@ section {
     }
 
 .seccion-clara{
-    color:$font-color;
+    color:$font-letra;
     background-color: $primary-color;
 }
 
 .seccion-oscura {
     color:$primary-color ;
-    background-color: #3D3737;
+    background-color:$font-color;
 }
 
 .seccion-footer {
@@ -86,13 +87,17 @@ section {
 }
 
 .texto-claro{
-    color: #F2EFDB;
+    color: $secondary-color;
 }
 
 .texto-oscuro{
-    color: #3D3737;
+    color: $font-letra;
 }
 
 .texto-rosa{
-    color:#FDA47E;
+    color:$primary-color;
+}
+
+.texto-gris{
+    color: $terciary-color;
 }

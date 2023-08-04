@@ -1,8 +1,8 @@
-$font-color: #3D3737;
+$font-color: #1a1615;
+$font-letra:#3D3737;
 $primary-color: #FDA47E;
 $secondary-color: #F2EFDB;
 $terciary-color:#aaa;
-
 .servicios {
     padding: 40px;
 
@@ -13,8 +13,6 @@ $terciary-color:#aaa;
             border:15px;
 
             .servicios-titulo{
-                font-size: 25px;
-                font-weight: bold;
                 margin: 20px 0;
             }
         }
