@@ -90,23 +90,43 @@ h2{
 
 @media  screen and (max-width:800px){
   
-    .container{
+    .testimonios{
+        height: 500px;
+    }
+    .testimonios .carousel{
+        height:700px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-        .testimonios-carrusel{
-            height: 900px;
-        }
-            .testimonio-imagen{
-                height: 60%;
-                width: 10%;
-            }
-            .testimonio-texto{
-                font-size: 10px;
-            }
     }
+    .testimonios .carousel .carousel-inner .carousel-item .container {
+        background-color: #F2EFDB;
+        width: 100%;
+        height: 500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .testimonios .carousel .carousel-inner .carousel-item .container .testimonio-imagen {
+        width: 80px;
+        height: 135px;
+        margin: 15px 10px 10px 10px;
+      }
+      .testimonios .carousel .carousel-inner .carousel-item .container .testimonio-texto {
+        max-width: 80%;
+        font-size: x-small;
+        margin: 0px;
+        padding: 15px;
+        
+      }
+      .testimonios .carousel .carousel-inner .carousel-item .container p {
+        background-color: #F2EFDB;
+        color: #1a1615;
+      }
 
     
 }

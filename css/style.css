@@ -112,21 +112,39 @@ h2 {
 }
 
 @media screen and (max-width: 800px) {
-  .container {
+  .testimonios {
+    height: 500px;
+  }
+  .testimonios .carousel {
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .container .testimonios-carrusel {
-    height: 900px;
+  .testimonios .carousel .carousel-inner .carousel-item .container {
+    background-color: #F2EFDB;
+    width: 100%;
+    height: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .container .testimonio-imagen {
-    height: 60%;
-    width: 10%;
+  .testimonios .carousel .carousel-inner .carousel-item .container .testimonio-imagen {
+    width: 80px;
+    height: 135px;
+    margin: 15px 10px 10px 10px;
   }
-  .container .testimonio-texto {
-    font-size: 10px;
+  .testimonios .carousel .carousel-inner .carousel-item .container .testimonio-texto {
+    max-width: 80%;
+    font-size: x-small;
+    margin: 0px;
+    padding: 15px;
+  }
+  .testimonios .carousel .carousel-inner .carousel-item .container p {
+    background-color: #F2EFDB;
+    color: #1a1615;
   }
 }
 * {
@@ -158,19 +176,52 @@ h2 {
   font-size: x-large;
 }
 
+.promo-minibook {
+  background-color: #3D3737;
+  color: #F2EFDB;
+  margin: 0px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.promo-minibook-2 {
+  background-color: #3D3737;
+  color: #F2EFDB;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
 .servicios {
   padding: 40px;
 }
-.servicios .row .columna {
-  height: 600px;
-  border: 15px;
+.servicios h2 {
+  background-color: #1a1615;
+  color: #FDA47E;
 }
-.servicios .row .columna .servicios-titulo {
-  margin: 20px 0;
+.servicios .servicios-fotos .img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: block;
+}
+
+.img:hover {
+  border: 4px solid #FDA47E;
 }
 
 .portfolio {
   padding: 40px;
+}
+.portfolio h2 {
+  background-color: #1a1615;
+  color: #FDA47E;
 }
 .portfolio .portfolio-fotos .img {
   height: 100%;
@@ -190,6 +241,12 @@ h2 {
 }
 .contacto .row .row-div {
   height: 700px;
+}
+.contacto .row .row-div h2 {
+  padding-bottom: 20px;
+}
+.contacto .row .row-div p {
+  font-size: medium;
 }
 .contacto .row .row-div .contacto-img {
   width: 80%;
@@ -231,6 +288,13 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Spectral", serif;
+}
+
+h3 {
+  font-size: 1rem;
   font-family: "Cedarville Cursive", cursive;
   font-family: "Cormorant Garamond", serif;
   font-family: "Spectral", serif;

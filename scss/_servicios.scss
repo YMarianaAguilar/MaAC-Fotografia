@@ -3,18 +3,47 @@ $font-letra:#3D3737;
 $primary-color: #FDA47E;
 $secondary-color: #F2EFDB;
 $terciary-color:#aaa;
-.servicios {
+
+.promo-minibook{
+    background-color: $font-letra;
+    color: $secondary-color;
+    margin: 0px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.promo-minibook-2{
+    background-color: $font-letra;
+    color: $secondary-color;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.servicios{
     padding: 40px;
 
-    .row{
-        
-        .columna{
-            height: 600px;
-            border:15px;
+    h2{
+        background-color: $font-color;
+        color: #FDA47E;
+    }
 
-            .servicios-titulo{
-                margin: 20px 0;
+      .servicios-fotos{ 
+            .img{
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            display: block;
             }
         }
-    }
+}
+
+.img:hover{
+    border: 4px solid #FDA47E;
 }

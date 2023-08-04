@@ -7,6 +7,10 @@ $terciary-color:#aaa;
 .portfolio{
     padding: 40px;
 
+    h2{
+        background-color: $font-color;
+        color: $primary-color;
+    }
 
       .portfolio-fotos{ 
             .img{
