@@ -3,6 +3,10 @@ $primary-color: #FDA47E;
 $secondary-color: #F2EFDB;
 $terciary-color:#aaa;
 
+*{
+    margin:0;
+    padding:0;
+}
 .sobre-mi{
     height: 750px;
     padding: 10px;
@@ -14,11 +18,19 @@ $terciary-color:#aaa;
         .sobre-mi-imagen{
             border-radius: 5%;
             margin: 20px;
-
         }
-
         .seccion-text{
             padding: 20px;
         }
+    }
+
+    h2{
+        background-color: $primary-color;
+        color: $font-color;
+        margin: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        
     }
 }
